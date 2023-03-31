@@ -53,6 +53,9 @@
 }
 
 
+.footer__site-logo {
+    margin-bottom: 25px;
+}
 
 .footer__social-list {
     @include row;
@@ -82,4 +85,24 @@
     color: $color-white;
     transform: translate(0px, 88px);
 
+}
+
+@media screen and (max-width:650px) {
+    .footer__box {
+        row-gap: 30px;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:334px) {
+
+
+    .footer__box-list {
+        row-gap: 20px;
+    }
+
+    .footer__site-logo {
+        width: 100%;
+    }
 }

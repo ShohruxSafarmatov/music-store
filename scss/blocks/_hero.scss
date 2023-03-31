@@ -60,3 +60,81 @@
     background: #ff753a;
     border-radius: 32px;
 }
+
+@media screen and (min-width:1224px) {
+    .hero__box {
+        padding: 50px 215px;
+    }
+}
+
+@media screen and (max-width:1224px) {
+    .hero__box {
+        padding: 50px 215px;
+    }
+}
+
+@media screen and (max-width:1025px) {
+    .hero__box {
+        padding: 50px 135px;
+    }
+}
+
+@media screen and (max-width:870px) {
+    body {
+        background-size: 100% 650px;
+    }
+
+    .hero__box {
+        padding: 50px 50px;
+    }
+
+    .hero__title {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width:650px) {
+    body {
+        background-size: 100% 600px;
+    }
+
+    .hero__title {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        font-size: 42px;
+        line-height: 100%;
+    }
+
+    .hero__box {
+        padding: 50px 50px;
+    }
+
+    .hero__subtitle {
+        font-size: 38px;
+        line-height: 100%;
+    }
+
+    .hero__text {
+        font-size: 20px;
+        line-height: 110%;
+    }
+
+
+}
+
+@media screen and (max-width:334px) {
+    .hero__title{
+        font-size: 38px;
+    }
+    .hero__box{
+        padding: 25px 15px;
+    }
+    .hero__subtitle{
+        font-size: 35px;
+    }
+}

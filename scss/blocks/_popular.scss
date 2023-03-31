@@ -39,7 +39,7 @@
 }
 
 .popular__item-box {
-    padding-left: 25px;
+    padding: 0 25px;
     text-align: left;
 }
 
@@ -82,4 +82,33 @@
     font-size: 12px;
     line-height: 150%;
     color: $color-black-50;
+}
+
+@media screen and (max-width:1224px) {
+
+    .popular {
+        .popular__list {
+            row-gap: 30px;
+            justify-content: center;
+        }
+
+        .popular__item:nth-child(4) {
+            display: block;
+        }
+    }
+}
+
+@media screen and (max-width:670px) {
+    .popular__item {
+        width: 100%;
+    }
+
+    .popular__item-box {
+        text-align: center;
+    }
+
+    .popular__item-img {
+        left: calc(50% - 150px);
+    }
+
 }
