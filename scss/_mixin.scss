@@ -1,0 +1,24 @@
+@mixin row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@mixin title {
+    font-style: normal;
+    font-weight: $f-weight-700;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    color: $color-black-50;
+    margin-bottom: 35px;
+
+    &::before {
+        content: '';
+        display: block;
+        border: 3px solid #AB0433;
+        width: 80px;
+        margin: 0 auto;
+
+    }
+}
